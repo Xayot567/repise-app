@@ -14,7 +14,7 @@ venv\Scripts\activate
 Linux/macOS: python -m venv venv
 source venv/bin/activate
 
-Kerakli kutubxonalarni o‘rnatish:
+✔Kerakli kutubxonalarni o‘rnatish:
 
 pip install fastapi
 pip install uvicorn
@@ -27,7 +27,7 @@ pip install psycopg2-binary
 
 Loyihani ishga tushirish
 
-Quyidagi buyruq orqali serverni ishga tushiring:
+✔Quyidagi buyruq orqali serverni ishga tushiring:
 
 uvicorn main:app --reload
 
@@ -35,19 +35,19 @@ reload parametri yordamida koddagi o‘zgarishlar avtomatik yangilanadi.
 
 API Yo‘llari
 
-Kategoriyalar:
+✔Kategoriyalar:
 
 POST /categories/ – Yangi kategoriya yaratish
 
 GET /categories/ – Barcha kategoriyalarni olish
 
-Teglar:
+✔Teglar:
 
 POST /tags/ – Yangi teg yaratish
 
 GET /tags/ – Barcha teglarni olish
 
-Retseptlar:
+✔Retseptlar:
 
 POST /recipes/ – Yangi retsept yaratish
 
@@ -57,7 +57,7 @@ GET /recipes/{recipe_id} – Berilgan ID bo‘yicha retseptni olish
 
 DELETE /recipes/{recipe_id} – Retseptni o‘chirish
 
-Loyihaning Tuzilishi
+✔Loyihaning Tuzilishi
 
 main.py – FastAPI ilovasi
 crud.py – CRUD funksiyalar
